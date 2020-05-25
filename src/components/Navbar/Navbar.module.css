@@ -1,0 +1,23 @@
+.nav{
+  grid-area: n;
+  background-color: rgba(127, 108, 129, 0.842);
+  padding: 20px;
+  margin:0 8px 8px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 0 40px rgba(0, 0, 0, .1) inset;
+
+}
+
+.item a{
+  color: white;
+  text-decoration: none;
+}
+
+/*.item.active{*/
+/*  color: gray*/
+/*}*/
+
+.item a.active{
+  color: gold;
+}
+
+

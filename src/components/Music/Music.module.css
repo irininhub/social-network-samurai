@@ -1,0 +1,64 @@
+.musicPage {
+    position: absolute;
+    margin: 0 40px 0;
+}
+
+.text {
+    margin: 30px;
+}
+
+/*////////HEART///////*/
+.heart {
+    position: relative;
+    top: 10px;
+    right: 0;
+    left: 57px;
+    bottom: 0;
+    background-color: #ff9ca1;;;
+    height: 36px;
+    width: 36px;
+    transform: rotate(-45deg);
+    animation-name: heartBeating;
+    animation-duration: 830ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.heart::after {
+    background-color: #ff9ca1;;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 0;
+    left: 18px;
+}
+
+.heart::before {
+    content: '';
+    background-color: #ff9ca1;
+    border-radius: 50%;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: -18px;
+    left: 0;
+}
+
+
+@keyframes heartBeating {
+    0% {
+        transform: scale(1.4) rotate(-45deg);
+    }
+    31% {
+        transform: scale(0.9) rotate(-45deg);
+    }
+    50% {
+        transform: scale(1.0) rotate(-45deg);
+    }
+    100% {
+        transform: scale(1.4) rotate(-45deg);
+    }
+}
+

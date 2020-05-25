@@ -1,0 +1,10 @@
+.form{
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.formError{
+    border: indianred 1px solid;
+    padding: 5px;
+    color: indianred;
+}

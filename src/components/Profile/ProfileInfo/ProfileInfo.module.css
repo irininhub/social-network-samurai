@@ -1,0 +1,17 @@
+.content img {
+    width: 1000px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 0 40px rgba(0, 0, 0, .1) inset;
+}

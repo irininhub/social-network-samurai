@@ -1,0 +1,26 @@
+.header {
+    grid-area: h;
+    background-color: rgb(59, 24, 92);
+    margin: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2), 0 0 40px rgba(0, 0, 0, .1) inset;
+    border: 0.2px solid;
+}
+
+.header img {
+    width: 36.5px;
+}
+
+.loginBLock {
+    float: right;
+    color: honeydew;
+    padding: 7px
+}
+
+.loginBLock a {
+    color: whitesmoke;
+}
+.link{
+    text-decoration: none;
+}
+
+
